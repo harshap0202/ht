@@ -54,15 +54,7 @@ button {
 .top{
 	display: flex;
 	align-items: center;
-overflow: hidden;
       }
-      
-      .img {
-        position: absolute;
-        top: -50px;
-        left: -50px;
-      }
-
 .htg{
 	width : 70%;
 }
@@ -109,8 +101,31 @@ overflow: hidden;
 
 @media only screen and (max-width: 768px) {
 
-  .message-box {
-	  width: 80%;
+  body{
+	  font-size : 90%;
   }
+ 
+ .top {
+	 flex-direction: column;
+ }
+ 
+ .container {
+	width: 90%;
+ }
+ 
+ .right {
+	padding: 10px;
+}
+ 
+  h1{
+	 font-size : 250%;
+ }
+  .message-box {
+	  width: 90%;
+  }
+  
+  .htg{
+	width : 90%;
+}
   
 }
