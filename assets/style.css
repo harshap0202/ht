@@ -17,7 +17,7 @@ body {
 .cheer {
 	text-align: center;
 	font-weight: bold;
-	color: 73AD21;
+	color: #141414;
 }
 
 h1 {
@@ -110,6 +110,7 @@ button {
 	 flex-direction: column;
  }
  
+ 
  .container {
 	width: 95%;
  }
@@ -119,11 +120,12 @@ button {
 }
  
   h1{
-	 font-size : 250%;
+	 font-size : 200%;
+	 	font-weight: bold;
  }
   .message-box {
-	  width: 90%;
-	  line-height: 25px;
+	width: 90%;
+	line-height: 25px;
 	text-align: justify;
   }
   
