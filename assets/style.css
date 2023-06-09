@@ -27,7 +27,7 @@ h1 {
 }
 
 p {
-	margin: 20px 0;
+	margin: 10px 0;
 	font-weight: 500;
 	line-height: 25px;
 	text-align: justify;
@@ -71,6 +71,7 @@ button {
 	padding: 30px;
 	border-radius: 8px;
 	color: black;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 5);
 }
 
 .data {
@@ -86,7 +87,7 @@ button {
 
 .message-box {
 	width: 50%;
-	height: 120px;
+	height: 150px;
 	padding: 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -110,7 +111,7 @@ button {
  }
  
  .container {
-	width: 90%;
+	width: 95%;
  }
  
  .right {
@@ -122,6 +123,8 @@ button {
  }
   .message-box {
 	  width: 90%;
+	  line-height: 25px;
+	text-align: justify;
   }
   
   .htg{
